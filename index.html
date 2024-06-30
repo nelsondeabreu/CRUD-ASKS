@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/style.css">
+    <title>GESTORES DE TAREFAS</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Gestores de Tarefas</h1>
+        <p>
+            <input type="text" id="inputext" placeholder="insira a sua tarefa"> 
+            <button onclick="addItem()">add</button>
+        </p>
+        <ul>  </ul>
+    </div>
+    
+    <div class="modal">
+        <button class="close">fechar</button>
+        <div class="editar">
+            <input type="text" placeholder="edite a sua tarefa" class="edit" > 
+            <button class="btnedit" onclick="btn_editar()">editar</button>
+        </div>
+    </div>
+
+    <script src="./src/assets/script/script.js"></script>
+</body>
+</html>
